@@ -1,9 +1,7 @@
-export default function() {
-    return {
-        scope: {
-            busqueda: '=',
-            callback: '&'
-        }, 
-        templateUrl: './routes/catalogo/lista/lista.html'
-    }
+export default {
+    bindings: {
+        busqueda: '=',
+        callback: '&'
+    },
+    templateUrl: './routes/catalogo/lista/lista.html'
 };
